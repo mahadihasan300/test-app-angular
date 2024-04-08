@@ -5,7 +5,7 @@ import { NavbarComponent } from './component/navbar/nav/navbar.component';
 import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
-    {path: '', component: ContentComponent},
-    {path: 'userRequest', component: UserRequestComponent},
-    {path: 'contact', component: ContactComponent}
+    {path: '','title' : 'Home', component: ContentComponent},
+    {path: 'userRequest','title' : 'Service', component: UserRequestComponent},
+    {path: 'contact','title' : 'Contact', component: ContactComponent}
 ];

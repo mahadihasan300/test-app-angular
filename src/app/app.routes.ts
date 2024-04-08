@@ -12,5 +12,7 @@ export const routes: Routes = [
     {path: 'userRequest','title' : 'Service', component: UserRequestComponent},
     {path: 'contact','title' : 'Contact', component: ContactComponent},
     {path: '', redirectTo: '/home', pathMatch: 'full'},
+    
+    //Will Always be in last
     {path: '**','title' : 'Page Not Found', component: NotFoundPageComponent}
 ];
